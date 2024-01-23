@@ -43,6 +43,58 @@
 
 <body>
     <header>
+        <!-- nav bar section starts here -->
+
+        <section class=" container mx-auto lg:px-24 px-8 my-8 ">
+            
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>About</a>
+                    <!-- <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul> -->
+                  </li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-4xl">Hockey <span class="text-red-500">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="text-red-500 text-base font-bold">Home</a></li>
+                <li>
+                    <a class="text-base">About</a>
+                  <!-- <details>
+                    <summary>About</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details> -->
+                </li>
+                <li><a class="text-base">Pages</a></li>
+                <li><a class="text-base">Blog</a></li>
+                <li><a class="text-base">Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex space-x-3">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              <a class="btn bg-red-500 text-white text-xl">Get Ticket</a>
+            </div>
+          </div>
+        </section>
+
+
 
         <!-- banner carousel starts -->
         <!-- class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2" -->
@@ -310,7 +362,7 @@
                             <label class="font-bold" for="fname">Message</label> <br>
                             <textarea class=" w-full h-52 p-4 bg-gray-100" id="subject" name="subject" placeholder="Write Your Message"></textarea></div>
                         <div class="col-span-2">   
-                            <input class=" block w-full h-14 p-4 text-white font-bold rounded-xl bg-red-600 " type="submit" value="Send Message"></div>
+                            <input class=" block w-full h-14 p-4 text-white font-semibold rounded-xl bg-red-500 " type="submit" value="Send Message"></div>
                     </div>
                 </div>
                 <div class="mx-auto w-full h-36 justify-between text-center gap-5 mt-10 bg-gray-100 rounded-2xl ">
